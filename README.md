@@ -1,5 +1,8 @@
 # ChartExtractor
 
+[![CI](https://github.com/ov9bo/ChartExtractor/actions/workflows/ci.yml/badge.svg)](https://github.com/ov9bo/ChartExtractor/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+
 A production-grade Python application that automatically digitizes 2D graphs and scientific charts. Given a chart image (PNG, JPG, etc.), it produces precise `(x, y)` coordinate datasets — including per-point uncertainty estimates — using a deterministic computer vision pipeline. No machine learning is used for pixel-level work; only Tesseract OCR is used for reading axis labels.
 
 ---
